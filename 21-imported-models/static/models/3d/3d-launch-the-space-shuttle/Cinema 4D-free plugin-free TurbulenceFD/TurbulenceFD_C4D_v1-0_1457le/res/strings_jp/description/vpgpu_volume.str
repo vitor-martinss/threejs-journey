@@ -1,0 +1,4 @@
+STRINGTABLE VPgpu_volume
+{
+  VPgpu_volume  "TurbulenceFD GPU \u30EC\u30F3\u30C0\u30E9\u30FC";
+}

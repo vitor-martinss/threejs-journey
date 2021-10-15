@@ -1,0 +1,12 @@
+STRINGTABLE GVsetfluiddata
+{
+    GVsetfluiddata              "SetFluidData";
+    GVSFD_VOLUME_OBJECT			"Fluid Container";
+    GVSFD_POSITION				"Position";
+    GVSFD_VELOCITY				"Velocity";
+    GVSFD_TEMPERATURE			"Temperature";
+    GVSFD_DENSITY				"Density";
+    GVSFD_FUEL					"Fuel";
+    GVSFD_FIRE					"Fire";
+    GVSFD_PARTICLE				"Particle";
+}

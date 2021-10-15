@@ -1,0 +1,10 @@
+STRINGTABLE Pfluid
+{
+	PFLUID					"PFluid";
+	PFLD_VOLUME_OBJECT		"Volume Object";
+	PFLD_PARTICLE			"Particle";
+	PFLD_SCALE				"Velocity Scale";
+    PFLD_SET_SPIN			"Set Spin";
+    PFLD_SPIN_SCALE         "Spin Scale";
+    PFLD_ADD_NOISE          "Add Turbulence";
+}

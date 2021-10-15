@@ -1,0 +1,501 @@
+STRINGTABLE Ovolume
+{
+    Ovolume                     "TurbulenceFD Container";
+    ID_PHYS_SCALE               "Physical Scale";
+    ID_TIME_SCALE               "Time Scale";
+    ID_VORTICITY_GROUP          "Vorticity";
+    ID_VORTICITY_SPECTRUM       "Spectrum";
+    ID_VORTICITY                "Vorticity";
+    ID_VORTICITY_SMALLEST_ONLY  "Smallest curls only";
+    ID_GRAVITY                  "Gravity";
+    ID_BUOYANCY                 "Buoyancy";
+    ID_BURN_RATE                "Burn Rate";
+    ID_EXPANSION                "Expansion";
+    ID_HEAT_CREATION            "Temp. Emission";
+    ID_TEMP_DIFFUSION           "Temp. Diffusion";
+    ID_TEMP_DECAY               "Cooling";
+    ID_TEMP_HALFLIFE            "Half-life";
+    ID_SOOT_CREATION            "Density Emission";
+    ID_DENS_DECAY               "Dissipation";
+    ID_DENS_HALFLIFE            "Half-life";
+
+    ID_SMOKE_COLOR              "Color";
+    ID_SS_THICKNESS             "Thickness";
+    ID_ALBEDO                   "Smoke Brightness";
+    ID_SCATTERING_ANISOTROPY    "Scattering Anisotropy";
+
+    ID_GENERAL                  "General";
+    ID_CACHE                    "Cache";
+    ID_SIMULATION               "Simulation";
+    ID_RENDERING                "Rendering";
+    ID_NEW_CACHE                "New Cache";
+    ID_OPEN_CACHE               "Open Cache";
+    ID_SAVE_CACHE               "Save Cache";
+    ID_CACHE_DIR                "Cache Directory";
+    ID_RAM_CACHE_FRAMES         "Frames cached in Memory";
+    ID_UPDATE_SIMULATION        "Run Simulation";
+    ID_UPDATE_BEFORE_RENDERING  "obsolete";
+
+    ID_COMPRESS                 "Compress Cache";
+    ID_VOLUME_DIM               "Grid Size";
+    ID_RESOLUTION_INFO          "Max Memory Usage";
+
+    ID_RENDER_OBSTACLES         "Render Obstacles";
+    ID_PREVIEW_QUALITY          "Fast, Low Quality Rendering";
+    ID_FIRE_TEMP                "Burn Temperature";
+    ID_IGNITION_TEMP            "Ignition Temperature";
+    ID_RENDERING_GENERAL        "General";
+
+    ID_SIMULATION_GENERAL       "General";
+    ID_SIMULATION_TEMPERATURE   "Temperature";
+    ID_SIMULATION_SMOKE         "Density";
+    ID_SIMULATION_FUEL          "Fuel";
+    ID_SIMULATION_BURN          "Burn";
+    ID_SIMULATION_FLAME         "Flame";
+
+    ID_BURN_RATE_VARIANCE       "Burn Rate Variance";
+    ID_BURN_RATE_NOISE_SCALE    "Burn Rate Variance Scale";
+
+    ID_SIM_TYPE                 "Simulation Type";
+    ID_SIM_TYPE_DIV_FREE        "No Divergence";
+    ID_SIM_TYPE_DIV_CTRL        "Allow Divergence";
+    ID_SIM_STEP_SIZE            "Simulation Step Size";
+    ID_ADV_STEP_SIZE            "Advection Stride";
+    ID_MAX_SIM_STEPS            "Frame Sub-Steps Limit";
+    ID_REAC_DECAY               "Reaction Time";
+    ID_SOOT_SCALE               "Soot Scale";
+
+    ID_SIMULATION_FLAME         "Flame";
+    ID_EXPANSION_SOURCE         "Source Expansion";
+    ID_EXPANSION_FRONT          "Front Expansion";
+
+    ID_SOOT_FUNCTION            "Density Emission";
+    ID_FUEL_DECAY               "Burn Rate";
+    ID_BURN_DECAY               "Decay";
+    ID_BURN_HALFLIFE            "Half-life";
+    ID_FLAME_IGNITION_TEMP      "Ignition Temperature";
+    ID_FLAME_FIRE_TEMP          "Burn Temperature";
+    ID_FLAME_CORE_COLOR         "Flame Core Color";
+    ID_FLAME_CORE_WIDTH         "Flame Core Width";
+    ID_FLAME_VORTICITY          "Flame Vorticity";
+    ID_FLAME_VORTICITY_WIDTH    "Flame Vort. Band";
+
+    ID_CUBIC_INTERPOLATION      "Cubic Interpolation";
+
+    ID_RUN_SIM_WHILE_RENDER     "Simulate while rendering";
+
+    ID_BURN_RATE_C1             "Elasticity";
+    ID_BURN_RATE_C2             "Elasticity Damping";
+    ID_BURN_RATE_C3             "Smoothing";
+    ID_BURN_RATE_C4             "Smoothing Damping";
+    ID_BURN_RATE_MU_THETA       "mu*theta";
+    ID_BURN_RATE_C5_THETA_DX    "c5*theta*dx";
+
+    ID_DSD_ORDER                "Flame Shape Complexity";
+    ID_DSD_FIRST                "Simple";
+    ID_DSD_THIRD                "Complex";
+
+    ID_EDITOR_RENDER_MODE       "Preview Mode";
+    ID_EDITOR_RENDERING         "Viewport Preview";
+    ID_EDITOR_RENDER_PREVIEW    "Render in Editor";
+    ID_EDITOR_RENDER_SLICE      "Show Slice of Volume";
+    ID_EDITOR_SLICE_ORIENTATION "Slice Orientation";
+    ID_EDITOR_SLICE_POSITION    "Slice Position";
+    ID_EDITOR_CHANNEL           "Channel";
+    ID_EDITOR_GRADIENT          "Display Color";
+    ID_EDITOR_GRADIENT_PARTICLES    "Display Color";
+    ID_VIEWPORT_PARTICLE_JITTER "Jitter Particles";
+    ID_VIEWPORT_PARTICLE_SIZE   "Particle Size";
+    ID_VIEWPORT_GRID_REDUCTION  "Grid Reduction";
+    ID_VIEWPORT_PREVIEW_MULTISLICE  "Full Slicing";
+    ID_VIEWPORT_SLICES_PER_VOXEL    "Slices per Voxel";
+    ID_VIEWPORT_SLICES_OPACITY      "Opacity";
+
+    ID_VIEWPORT_PREVIEW_NONE    "None";
+    ID_VIEWPORT_PREVIEW_PARTICLES   "Particles";
+    ID_VIEWPORT_PREVIEW_SLICE   "Single Slice";
+
+    ID_CHANNEL_NONE             "None";
+    ID_CHANNEL_VEL              "Velocity";
+    ID_CHANNEL_DENS             "Density";
+    ID_CHANNEL_TEMP             "Temperature";
+    ID_CHANNEL_FUEL             "Fuel";
+    ID_CHANNEL_BURN             "Burn";
+    ID_CHANNEL_TEX              "Texture";
+    ID_CHANNEL_FLAME            "Flame";
+    ID_CHANNEL_FLAME_CURV       "Flame Curvature";
+    ID_CHANNEL_DET              "Burn Speed";
+    ID_CHANNEL_REAC             "Reaction Age";
+    ID_CHANNEL_SOLID            "Collision";
+    ID_CHANNEL_SOLID_VEL        "Collision Object Velocity";
+    ID_CHANNEL_DIV              "Divergence";
+    ID_CHANNEL_TEXU             "Texture U";
+    ID_CHANNEL_TEXV             "Texture V";
+    ID_CHANNEL_TEXW             "Texture W";
+    ID_CHANNEL_TEXU2            "Texture U2";
+    ID_CHANNEL_TEXV2            "Texture V2";
+    ID_CHANNEL_TEXW2            "Texture W2";
+
+    ID_SLICE_ORIENTATION_PERSPECTIVE    "Billboard";
+    ID_SLICE_ORIENTATION_X      "YZ Plane";
+    ID_SLICE_ORIENTATION_Y      "XZ Plane";
+    ID_SLICE_ORIENTATION_Z      "XY Plane";
+    ID_EDITOR_COLOR_SCALE       "Slice Color Scale";
+
+    ID_SAVE_CHANNELS    "Cached Channels";
+    ID_SAVE_VEL         "Cache Velocity";
+    ID_SAVE_SOLID       "Cache Collision";
+    ID_SIM_DENS        "Active";
+    ID_SIM_TEMP        "Active";
+    ID_SIM_FUEL        "Active";
+    ID_SIM_BURN        "Active";
+    ID_SAVE_TEX         "Active";
+
+    ID_ADAPT_THRES_DENS "Clip Below";
+    ID_ADAPT_THRES_TEMP "Clip Below";
+    ID_ADAPT_THRES_FUEL "Clip Below";
+    ID_ADAPT_THRES_BURN "Clip Below";
+    ID_ADAPT_THRES_VEL  "Clip Below";
+
+    ID_RADIATION_COOLING    "Radiative Cooling";
+    ID_FLAME_SOOT_CREATION  "Density Emission";
+
+    ID_SIM_STATE_CLEAN  "Start Clean Simulation";
+    ID_SIM_STATE_FILE   "Load Simulation State From File";
+    ID_SIM_STATE_CONTINUE   "Continue Simulation From File";
+
+    ID_BUOYANCY_DIRECTION   "Buoyancy Direction";
+    ID_GRAVITY_DIRECTION    "Gravity Direction";
+
+    ID_ADAPTIVE_CONTAINER   "Adaptive Container";
+    ID_RENDER_FLAME_SURFACE "Render Flame Surface";
+
+    ID_COMBUST_MODE         "Burn Mode";
+    ID_BURN_RELATIVE        "Burn Relative";
+    ID_BURN_ABSOLUTE        "Burn Absolute";
+
+    ID_DENS_DIFFUSION       "Dens. Diffusion";
+
+    ID_SHADERS              "Shaders";
+    ID_SHADE_SMOKE          "Active";
+    ID_SHADE_BLACKBODY      "Active";
+    ID_SHADE_FIRE           "Active";
+    ID_SHADE_FLAME          "Active";
+    ID_SHADERS_FIRE_CHANNEL "Channel";
+
+    ID_SHADERS_SMOKE            "Smoke Shader";
+    ID_SHADERS_FIRE             "Fire Shader";
+    ID_SHADERS_BLACKBODY        "Black Body Shader";
+    ID_SHADERS_FLAME            "Flame Core Shader";
+
+    ID_EDITOR_COLOR_FIT         "Fit Display Range";
+    ID_EDITOR_COLOR_AUTOFIT     "Auto-Fit";
+    ID_EDITOR_COLOR_MIN         "Range Start";
+    ID_EDITOR_COLOR_MAX         "Range End";
+
+    ID_VELOCITY_NOISE           "Velocity Noise";
+    ID_VELNOISE_INTENSITY       "Turb. Intensity";
+    ID_VELNOISE_FREQ            "Turb. Scale";
+    ID_VELNOISE_DETAIL          "Turb. Octaves";
+    ID_VELNOISE_SPEED           "Turb. Frequency";
+    ID_VELNOISE_OFFSET          "Turb. Offset";
+    ID_TURBULENCE               "Turbulence";
+
+    ID_SSS_NOISE                "Noise";
+    ID_SSS_NOISE_INTENSITY      "Intensity";
+    ID_SSS_NOISE_FREQ           "Scale";
+    ID_SSS_NOISE_DETAIL         "Levels";
+    ID_SSS_NOISE_SPEED          "Frequency";
+    ID_SSS_NOISE_OFFSET         "Offset";
+
+    ID_REMOVE_CACHE             "Remove Cache";
+    ID_CACHE_LIST               "Simulation Caches";
+
+    ID_SHADERS_FIRE_COLOR_SOURCE    "Source";
+    ID_SFCS_CHANNEL             "Channel";
+    ID_SFCS_RANGE_START         "Range Start";
+    ID_SFCS_RANGE_END           "Range End";
+    ID_SFCS_SOFT_START          "Start";
+    ID_SFCS_SOFT_SUPR           "Suppression";
+    ID_SFCS_CONTOUR_WIDTH       "Width";
+    ID_SFCS_CONTOUR_SHARPNESS   "Sharpness";
+    ID_SFCS_BLACKBODY_MIN_TEMP  "Low Temp.";
+    ID_SFCS_BLACKBODY_MAX_TEMP    "High Temp.";
+
+    ID_SHADERS_FIRE_OPACITY_SOURCE    "Source";
+    ID_SFOS_CHANNEL             "Channel";
+    ID_SFOS_RANGE_START         "Range Start";
+    ID_SFOS_RANGE_END           "Range End";
+    ID_SFOS_SOFT_START          "Start";
+    ID_SFOS_SOFT_SUPR           "Suppression";
+    ID_SFOS_CONTOUR_WIDTH       "Width";
+    ID_SFOS_CONTOUR_SHARPNESS   "Sharpness";
+
+    ID_FIRE_COLOR               "Fire Color";
+    ID_FIRE_COLOR_SCALE         "Luminance";
+    ID_SFCS_BLACKBODY_WHITE_POINT         "White Point";
+    ID_SFCS_BLACKBODY_DAMPING   "Damping";
+    ID_SF_OPACITY               "Mapping";
+    ID_SF_OPACITY_SCALE         "Opacity";
+    ID_SF_ALPHA_SCALE           "Alpha";
+
+    ID_SF_COLOR_MODE            "Color Mode";
+    ID_SF_MODE_MANUAL           "Manual";
+    ID_SF_MODE_BLACKBODY        "Black Body";
+
+    ID_SF_FIRE_CLEARS_SMOKE     "Clear Smoke If Above";
+
+    ID_SHADERS_FIRE_COLOR       "Color";
+    ID_SHADERS_FIRE_OPACITY     "Separate Opacity";
+
+    ID_SHADERS_SMOKE_SOURCE     "Source";
+    ID_SSS_CHANNEL              "Channel";
+    ID_SSS_RANGE_START          "Range Start";
+    ID_SSS_RANGE_END            "Range End";
+    ID_SSS_SOFT_START           "Start";
+    ID_SSS_SOFT_SUPR            "Suppression";
+    ID_SSS_CONTOUR_WIDTH        "Width";
+    ID_SSS_CONTOUR_SHARPNESS    "Sharpness";
+
+    ID_SSS_CONTOUR              "Contour";
+    ID_SSS_SOFTCLIP             "Soft Clip";
+
+    ID_SFCS_CONTOUR             "Contour";
+    ID_SFCS_SOFTCLIP            "Soft Clip";
+
+    ID_SFOS_CONTOUR             "Contour";
+    ID_SFOS_SOFTCLIP            "Soft Clip";
+    ID_SFCS_INTENSITY           "Mapping";
+
+    ID_SSS_INTENSITY            "Mapping";
+    ID_SS_SCATTERING            "Smoke Color";
+    ID_SS_ABSORPTION            "Light Absorption";
+    ID_SS_SHADOW                "Shadow Color";
+    ID_SS_BRIGHTNESS            "Brightness";
+
+    ID_FUEL_SPEED               "Flow Speed";
+    ID_FUEL_DIFFUSION           "Fuel Diffusion";
+    ID_BURN_DIFFUSION           "Burn Diffusion";
+
+    ID_INTERPOLATION            "Interpolation";
+    ID_INTERPOLATION_FAST       "Fast";
+    ID_INTERPOLATION_SMOOTH     "Smooth";
+    ID_INTERPOLATION_SHARP      "Sharp";
+    ID_INTERPOLATION_FASTSHARP  "Fast Sharp";
+
+    ID_CHANNEL_GRADIENTX        "X Gradient";
+    ID_CHANNEL_GRADIENTY        "Y Gradient";
+    ID_CHANNEL_GRADIENTZ        "Z Gradient";
+
+    ID_RESOLUTION_GROUP         "Resolution";
+    ID_TIMING                   "Timing";
+    ID_FRAME_RANGE_MODE         "Frame Range";
+    ID_FRAME_RANGE_PREVIEW      "Preview Range";
+    ID_FRAME_RANGE_ALL          "All Frames";
+    ID_FRAME_RANGE_CUSTOM       "Manual";
+    ID_START_TIME               "From";
+    ID_END_TIME                 "To";
+    ID_CELL_SIZE                "Voxel Size";
+
+    ID_FIXED_RESOLUTION_PROPERTY    "When resizing container, keep";
+    ID_RESOLUTION_FIX_PERFORMANCE   "Resolution";
+    ID_RESOLUTION_FIX_QUALITY       "Voxel Size";
+
+    ID_CACHE_INFO                   "Current Frame Info";
+    ID_CACHE_INFO_FILENAME          "File Name";
+    ID_CACHE_INFO_RESOLUTION        "Resolution";
+    ID_CACHE_INFO_SIM_TIME          "Physical Time";
+    ID_CACHE_INFO_DOC_TIME          "Scene Frame";
+    ID_CACHE_INFO_VEL               "Velocity";
+    ID_CACHE_INFO_SOLID             "Solid";
+    ID_CACHE_INFO_DENS              "Density";
+    ID_CACHE_INFO_TEMP              "Temperature";
+    ID_CACHE_INFO_FUEL              "Fuel";
+    ID_CACHE_INFO_BURN              "Burn";
+    ID_CACHE_INFO_TEX               "Texture";
+    ID_CACHE_INFO_AVAIL_CHANNELS    "Available Channels";
+
+    ID_INTERPOLATION_CRMONO         "CRMONO";
+    ID_INTERPOLATION_CRMONO2        "CRMONO2";
+
+    ID_RENDER_PROXIMITY             "Render Proximity";
+    ID_RAY_STEP_ADAPTIVE            "Adaptive Step Size";
+    ID_RAY_STEP                     "Step Size";
+    ID_RAY_EXT_STEP                 "Shadow Step Size";
+
+    ID_WIND_GROUP                   "Wind";
+    ID_WIND_DIRECTION               "Wind Direction";
+    ID_WIND_SPEED                   "Wind Speed";
+
+    ID_LIMIT_VELOCITY               "Limit Velocity";
+    ID_SOLVER_GROUP                 "Solver";
+
+    ID_PARTICLE_VELOCITY_SCALE      "Particle Velocity Scale";
+
+    ID_VELNOISE_PERIOD              "Period";
+    ID_VELNOISE_SMALL_POWER         "Small Power";
+    ID_VELOCITY_DAMP                "Damp Velocity";
+    ID_HQ_SOLVE                     "Alternate Solver";
+    ID_VELOCITY_GROUP               "Velocity";
+
+    ID_SSS_SMOOTHING                "Smoke Smoothing";
+    ID_SFCS_SMOOTHING               "Fire Smoothing";
+    ID_SFOS_SMOOTHING               "Smoothing";
+
+    ID_VORTICITY_SUSTAIN            "Sustain";
+    ID_VORTICITY_RELEASE            "Release";
+
+    ID_FLUID_MOVES_WITH_CONTAINER   "Fluid Moves With Container";
+    ID_MOTION_BLUR                  "Motion Blur";
+    ID_MOTION_BLUR_STEP             "Motion Blur Step";
+    ID_FRAME_OFFSET                 "Frame Offset";
+    ID_FRAME_STEP                   "Frame Step";
+
+    ID_LIGHTING_MODE                "Illumination";
+    ID_LIGHTING_NONE                "None";
+    ID_LIGHTING_FAST                "Voxelized Fast";
+    ID_LIGHTING_SMOOTH              "Voxelized Smooth";
+    ID_LIGHTING_BRUTE               "Accurate";
+
+    ID_EXPANSION_MODE               "Expansion Mode";
+    ID_HEAT_CREATION_MODE           "Temp. Emission Mode";
+    ID_SOOT_CREATION_MODE           "Density Emission Mode";
+    ID_EMIT_MODE_ADD                "Add";
+    ID_EMIT_MODE_SET                "Set";
+
+    ID_BLACKBODY_TO_MANUAL          "Edit";
+
+    ID_CACHE_TEMP                   "Cache Temperature";
+    ID_CACHE_DENS                   "Cache Density";
+    ID_CACHE_FUEL                   "Cache Fuel";
+    ID_CACHE_BURN                   "Cache Burn";
+
+    ID_SFCS_BLACKBODY_RED_SCALE     "Red";
+    ID_SFCS_BLACKBODY_GREEN_SCALE   "Green";
+    ID_SFCS_BLACKBODY_BLUE_SCALE    "Blue";
+
+    ID_SOLID_BOUNDARIES             "Closed container boundaries";
+    ID_SOLID_BND_NEGX               "-X";
+    ID_SOLID_BND_POSX               "+X";
+    ID_SOLID_BND_NEGY               "-Y";
+    ID_SOLID_BND_POSY               "+Y";
+    ID_SOLID_BND_NEGZ               "-Z";
+    ID_SOLID_BND_POSZ               "+Z";
+
+    ID_SHOW_GRID                    "Show Grid";
+    ID_SHOW_BBOXES                  "Show Bounding Boxes";
+    ID_GRID_OFF                     "Off";
+    ID_GRID_XY                      "XY";
+    ID_GRID_XZ                      "XZ";
+    ID_GRID_YZ                      "YZ";
+
+    ID_EXTRAPOLATE_INTO_SOLID       "Smooth Collision Surface Rendering";
+
+    ID_VELNOISE_INTENSITY_CHANNEL   "Intensity Channel";
+    ID_VELNOISE_INTENSITY_MAPPING   "Intensity Mapping";
+
+    ID_GENERATE_TEXTURE_COORDINATES "Generate Texture Coordinates";
+    ID_TEXTURE_COORDINATE_INTERVAL  "Texture Re-generation interval";
+
+    ID_SMOKE_NOISE_SHADER           "Smoke Texture";
+    ID_FIRE_NOISE_SHADER            "Fire Texture";
+    ID_VIEWPORT_PARTICLES_CHANNEL   "Channel";
+
+    ID_CONTAINER_GROUP              "Container";
+    ID_SLICE_ORIENTATION_MAJOR_AXIS "Major axis";
+
+    ID_VIEWPORT_OPENGL_WARNING      "Preview not available! OpenGL is deactivated";
+    ID_VIEWPORT_ACTIVATE_OPENGL     "Activate OpenGL";
+    ID_VIEWPORT_LERP_TEXTURES       "Interpolate Voxels";
+    ID_EMITTER_STEPS                "Emitter Steps";
+
+    ID_VELNOISE_SMALLEST            "Smallest Size";
+    ID_VELNOISE_LARGEST             "Largest Size";
+
+    ID_SOLVER_ADVECTION_GROUP       "Advection";
+    ID_SOLVER_MISC_GROUP            "Misc";
+
+    ID_UPRES_GROUP                  "Up-Res'ing";
+    ID_UPRES_SCALE                  "Up-Res Scale";
+    ID_SAVE_MEMORY                  "Use less memory but more time";
+    ID_UPRES_TURBULENCE_STRENGTH    "Fine Turb. Intensity";
+    ID_UPRES_TURBULENCE_SMALL_POWER "Fine Turb. Small Power";
+    ID_UPRES_SUPER_VOXEL_OCTAVES    "Additional Large Octaves";
+
+    ID_ILLUMINATION_RES             "Illumination Resolution";
+    ID_RENDER_TRANSFORM             "Render Transform";
+
+    ID_FUELMASK_CHANNEL             "Fuel Mask Channel";
+    ID_FUELMASK_MAPPING             "Fuel Mask Mapping";
+    ID_FUELMASK_SMOOTHING           "Fuel Mask Smoothing";
+
+    ID_BURN_DECAY_MODE              "Decay Mode";
+    ID_LINEAR                       "Linear";
+    ID_EXPONENTIAL                  "Exponential";
+    ID_BURN_DECAY_LINEAR            "Decay";
+    ID_LOCK_CACHE                   "Lock Cache";
+
+    ID_MAX_VELOCITY_DISPLACEMENT    "Max. Velocity Displacement";
+
+    ID_SMOKE_VELOCITY_DISPLACEMENT  "Velocity Displacement";
+    ID_SMOKE_SUBGRID_DETAIL         "Sub-Grid Detail";
+    ID_SMOKE_SUBGRID_INTENSITY      "Noise Intensity";
+    ID_SMOKE_SUBGRID_SMALLEST       "Smallest Size";
+    ID_SMOKE_SUBGRID_LARGEST        "Largest Size";
+    ID_SMOKE_SUBGRID_SMALL_POWER    "Small Power";
+
+    ID_FIRE_VELOCITY_DISPLACEMENT   "Velocity Displacement";
+    ID_FIRE_SUBGRID_DETAIL          "Sub-Grid Detail";
+    ID_FIRE_SUBGRID_INTENSITY       "Noise Intensity";
+    ID_FIRE_SUBGRID_SMALLEST        "Smallest Size";
+    ID_FIRE_SUBGRID_LARGEST         "Largest Size";
+    ID_FIRE_SUBGRID_SMALL_POWER     "Small Power";
+
+    ID_MULTISCATTER_ENABLED         "Multiple Scattering";
+    ID_MULTISCATTER_DEPTH           "Max. Depth";
+    ID_MULTISCATTER_DIRRES          "Directional Resolution";
+    ID_MULTISCATTER_SMOKE_BRIGHTNESS "Light Brightness";
+    ID_MULTISCATTER_FIRE_BRIGHTNESS "Fire Brightness";
+    ID_MULTISCATTER_FALLOFF         "Falloff";
+
+    ID_SMOKE_LIGHTING_GROUP         "Illumination";
+
+    ID_SHADERS_SMOKE_OPACITY        "Separate Opacity";
+    ID_SS_OPACITY_CHANNEL           "Channel";
+    ID_SS_OPACITY_SMOOTHING         "Smoothing";
+    ID_SS_OPACITY_MAPPING           "Mapping";
+
+    ID_CHANNEL_VELU                 "Velocity X";
+    ID_CHANNEL_VELV                 "Velocity Y";
+    ID_CHANNEL_VELW                 "Velocity Z";
+
+    ID_ADAPTIVE_TRACER              "Adaptive Tracer";
+
+    ID_USE_DIST_OPAQ_MAPPING        "Use Distance/Opacity Mapping";
+    ID_DIST_OPAQ_MAPPING            "Distance/Opacity Mapping";
+
+    ID_SMOKE_SUBGRID_PERIOD         "Period";
+    ID_FIRE_SUBGRID_PERIOD          "Period";
+
+    ID_SOLIDS_ENLARGE_CONTAINER     "Collision Objects Enlarge Container";
+    ID_SHADERS_SMOKE_COLOR          "Color & Opacity";
+    ID_SHADERS_SMOKE_MAPPING        "Mapping";
+    ID_SHADERS_FIRE_MAPPING         "Mapping";
+
+    ID_PREVIEW_SHADER               "Shader";
+    ID_PRM_NONE                     "None";
+    ID_PRM_FIRE_SHADER              "Fire Shader";
+    ID_PRM_SMOKE_SHADER             "Smoke Shader";
+    ID_PREVIEW_USE_SHADER_COLOR     "Use Shader Color";
+
+    ID_VORTICITY_INTENSITY_CHANNEL  "Intensity Channel";
+    ID_VORTICITY_INTENSITY_MAPPING  "Intensity Mapping";
+
+    ID_ADVECT_METHOD_VEL            "Velocity Advection";
+    ID_ADVECT_METHOD_CHAN           "Channel Advection";
+    ID_ADVECT_METHOD_2NDORDER       "2nd Order";
+    ID_ADVECT_METHOD_1STORDER       "1st Order";
+
+    ID_GRID_OFFSET                  "Grid Offset";
+    ID_MAX_PRESSURE_ITERATIONS      "Pressure Iteration Limit";
+}

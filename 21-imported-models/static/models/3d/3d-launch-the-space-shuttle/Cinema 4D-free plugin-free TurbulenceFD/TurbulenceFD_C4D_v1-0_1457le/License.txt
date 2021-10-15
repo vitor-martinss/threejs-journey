@@ -1,0 +1,33 @@
+JAWSET VISUAL COMPUTING LICENSE AGREEMENT
+
+BY INSTALLING OR USING THIS SOFTWARE YOU AGREE TO BE BOUND BY THE TERMS
+AND CONDITIONS OF THIS LICENSE AGREEMENT.
+
+This software is provided "as-is", without any expressed or implied
+warranty. In no event will JAWSET VISUAL COMPUTING be held liable for
+any damages arising from the use of this software.
+
+The Learning Edition may be used for evaluation and demoing purposes only.
+
+The Educational License may be used for non-commercial work only.
+
+Commercial Licenses including the Floating License, Single User License
+and Volume License may also be used for any purpose subject to the
+restrictions specified below.
+
+Licenses are issued for a specific number of seats. You may use the
+software on no more than that number of machines at a time.
+The Volume License is node-locked to a single machine. It may not be used
+on any other machine unless explicitly transfered by JAWSET VISUAL COMPUTING.
+
+In addition to the licensed seats, you may use the software to render on any
+number of render nodes. Using the GUI and any other functionality than
+rendering is limited to the number of seats acquired as described above.
+
+You may not redistribute, resell, rent, lease or sub-license the software
+in any form without written permission by JAWSET VISUAL COMPUTING.
+
+You may not disassemble, create derivative works, modify, reverse engineer,
+adapt or decompile the software.
+
+The software is copyrighted. All rights remain with JAWSET VISUAL COMPUTING.

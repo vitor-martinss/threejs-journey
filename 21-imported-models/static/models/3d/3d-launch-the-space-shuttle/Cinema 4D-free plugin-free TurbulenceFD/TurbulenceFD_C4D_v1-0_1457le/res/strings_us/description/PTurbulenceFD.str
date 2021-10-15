@@ -1,0 +1,12 @@
+STRINGTABLE PTurbulenceFD
+{
+    PTurbulenceFD               "TurbulenceFD";
+    ID_DEFAULT_CACHE_BASE_PATH  "Default Cache Base Path";
+    ID_SAVE_PROJECT_ON_SIM      "Autosave Project To Cache";
+    ID_AUTO_CHECK_UPDATE        "Automatically check for updates";
+    ID_ALWAYS_SAVE_STATE        "Save full sim state when aborting sim-while-render";
+    ID_ASK                      "Ask";
+    ID_ALWAYS                   "Always";
+    ID_NEVER                    "Never";
+    ID_ASK_BEFORE_OVERWRITING_CACHE    "Ask before overwriting simulation cache";
+}

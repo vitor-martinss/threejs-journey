@@ -1,0 +1,8 @@
+STRINGTABLE VPvolume
+{
+    VPvolume    "TurbulenceFD Renderer";
+    ID_RAY_STEP_ADAPTIVE    "Adaptive Step Size";
+    ID_ADAPTIVE_THRESHOLD   "Noise Threshold";
+    ID_USE_FLUID_MOTION_BLUR    "Fluid Motion Blur";
+    ID_DISTRIBUTE_CACHE_TO_TR_CLIENTS "Automatically Distribute Cache to Team Render Clients";
+}

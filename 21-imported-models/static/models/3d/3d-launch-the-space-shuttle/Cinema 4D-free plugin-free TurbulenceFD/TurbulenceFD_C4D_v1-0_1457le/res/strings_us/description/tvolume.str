@@ -1,0 +1,78 @@
+STRINGTABLE Tvolume
+{
+    Tvolume                 "TurbulenceFD Emitter";
+
+    ID_GENERAL_GROUP        "General";
+    ID_DENSITY_GROUP        "Density";
+    ID_TEMPERATURE_GROUP    "Temperature";
+    ID_FUEL_GROUP           "Fuel";
+    ID_DENSITY_MODE         "Density Emission Mode";
+    ID_TEMPERATURE_MODE     "Temperature Emission Mode";
+    ID_FUEL_MODE            "Fuel Emission Mode";
+    ID_DENSITY              "Density Value";
+    ID_TEMPERATURE          "Temperature Value";
+    ID_FUEL                 "Fuel Value";
+    ID_BURN                 "Burn";
+    ID_BURN_MODE            "Burn Emission Mode";
+    ID_SOURCE_MODE_ADD      "Add";
+    ID_SOURCE_MODE_SET      "Set";
+
+    ID_OBSTACLE             "Collision Object";
+    ID_NORMAL_FORCE         "Normal Force";
+    ID_DIR_FORCE            "Directional Force";
+    ID_SELECTION_LIST       "Restrict to polygon selections";
+    ID_FLAME                "Flame";
+    ID_VOXELIZATION_MODE    "Voxelization Mode";
+    ID_VOXMODE_NOISE        "Noisy";
+    ID_VOXMODE_SMOOTH       "Smooth";
+    ID_VOXMODE_BOXED        "Boxed";
+    ID_VOXELIZATION_RADIUS  "Radius";
+    ID_VOXELIZATION_FILL    "Fill Object";
+    ID_NOISE_INTENSITY      "Noise Intensity";
+    ID_NOISE_FREQ           "Noise Scale";
+    ID_NOISE_DETAIL         "Noise Levels";
+    ID_NOISE_SPEED          "Noise Frequency";
+    ID_NOISE_OFFSET         "Noise Offset";
+
+    ID_TAG_EMITTER          "Fluid Emitter";
+    ID_TAG_SURFACE          "Surface";
+    ID_TAG_TURBULENCE       "Wind Turbulence";
+    ID_INDUCE_TURBULENCE    "Induce Random Turbulence";
+    ID_OBJVELNOISE_RADIUS      "Radius";
+    ID_OBJVELNOISE_INTENSITY   "Intensity";
+    ID_OBJVELNOISE_FREQ        "Scale";
+    ID_OBJVELNOISE_DETAIL      "Detail";
+    ID_OBJVELNOISE_SPEED       "Frequency";
+    ID_OBJVELNOISE_OFFSET      "Offset";
+    ID_DIVERGENCE           "Pressure";
+
+    ID_VOXELIZATION         "Voxelization";
+    ID_TAG_GENERAL          "General";
+    ID_ADD_NOISE            "Use Texture";
+
+    ID_TAG_PARTICLE_DECAY   "Decay over lifetime";
+    ID_EMITTER_VELOCITY_WEIGHT   "Velocity Weight";
+    ID_TAG_SHADER           "Volume Texture";
+
+    ID_FORCE_GROUP              "Force";
+    ID_PARTICLE_GROUP           "Particle emission intensity";
+    ID_PARTICLE_PROPERTY        "Particle property";
+    ID_PARTICLE_PROPERTY_MAPPING    "Intensity";
+    ID_PART_PROP_NONE           "None";
+    ID_PART_PROP_AGE            "Age";
+    ID_PART_PROP_VEL            "Velocity";
+    ID_PART_PROP_MAS            "Mass";
+    ID_PART_PROP_SIZ            "Size";
+
+    ID_EMITTER_ACTIVE           "Emitter Active";
+    ID_USE_VERTEX_MAPS          "Use Vertex Maps";
+    ID_TEXTURE_CHANNEL          "Surface Texture Channel";
+    ID_TEXTURE_CHANNEL_NONE     "None";
+    ID_TEXTURE_CHANNEL_LUMINANCE    "Luminance";
+    ID_TEXTURE_CHANNEL_TRANSPARENCY "Transparency";
+    ID_TEXTURE_CHANNEL_ALPHA        "Alpha";
+    ID_TEXTURE_CHANNEL_COLOR        "Color";
+
+    ID_CHANNELS_GROUP           "Channels";
+    ID_TEXTURE_GROUP            "Texture";
+}

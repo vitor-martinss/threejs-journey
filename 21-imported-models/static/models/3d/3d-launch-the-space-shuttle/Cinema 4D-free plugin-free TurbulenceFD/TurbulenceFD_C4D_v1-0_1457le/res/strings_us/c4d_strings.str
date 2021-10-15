@@ -1,0 +1,177 @@
+// C4D-StringResource
+// Identifier	Text
+
+STRINGTABLE
+{
+    IDS_VOLUME_OBJECT                   "#$01TurbulenceFD Container";
+    IDS_OPEN_SIM_DIALOG_TOOL            "#$02Simulation Window";
+    IDS_SIMULATION_TOOL                 "#$03Start Cached Simulation";
+    IDS_INTERACTIVE_SIM_TOOL            "#$04Start Interactive Simulation";
+    IDS_UPRES_TOOL                      "#$05Start Up-Res Simulation";
+    IDS_STOP_SIM_TOOL                   "#$06Stop Simulation";
+    IDS_CONTINUE_TOOL                   "#$07Continue Simulation";
+    IDS_PREVIEW_TOOL                    "#$08Preview Fluid Container";
+    IDS_HELP_TOOL                       "#$09TurbulenceFD Help";
+    IDS_UPDATE_CHECK_TOOL               "#$10Check for Updates";
+    IDS_PURCHASE_TOOL                   "#$11Purchase License";
+    IDS_VOLUME_OBJECT_BUBBLE_HELP       "Fluid Container. Add 'TurbulenceFD Emitter' tag to objects and move them inside this container. Select 'Run Simulation' before rendering.";
+    IDS_VOLUME_RENDERER                 "TurbulenceFD Renderer";
+    IDS_VOLUME_RENDERER_BUBBLE_HELP     "Renders scenes that contain a 'TurbulenceFD Container'";
+    IDS_VOLUME_TAG                      "TurbulenceFD Emitter";
+    IDS_VOLUME_TAG_BUBBLE_HELP          "When moved inside a 'TurbulenceFD Container', objects with this tag become part of Fluid Dynamics Simulation.";
+    IDS_LOADING_SIMULATION_FRAME        "Loading Frame from Simulation Cache...";
+    IDS_PREPARING_SIMULATION_FRAME      "Preparing Simulation Frame...";
+    IDS_ILLUMINATING_VOLUME             "Illuminating Volume...";
+    IDS_SIMULATING                      "Simulating Fluid Dynamics...";
+    IDS_TRB4D_EXCEPTION                 "TurbulenceFD Exception";
+    IDS_TRB4D_HINT                      "TurbulenceFD Notice";
+    IDS_FAILED_TO_OPEN_CACHE            "Failed to open cache directory";
+    IDS_FAILED_TO_MOVE_CACHE            "Failed to save simulation cache to the path below.\nChoose a different directory.";
+    IDS_DELETE_TEMPORARY_CACHE          "The current cache is temporary and will be deleted. Do you want to continue?";
+    IDS_CHOOSE_DIFFERENT_DIR            "Choose location of simulation cache";
+    IDS_CHOOSE_DIFFERENT_DIR_OR_TEMP    "Choose location of simulation cache or Cancel to use a temporary directory.";
+    IDS_OVERWRITE_CACHE_DIR             "Overwrite existing cache files?";
+    IDS_COPYING_FILES                   "Copying cache files...";
+    IDS_SIMULATION_DIALOG_TITLE_PREFIX  "Simulating";
+    IDS_PREVIEW_DIALOG_TITLE_PREFIX     "Preview for";
+    IDS_ABORT                           "Abort";
+    IDS_START                           "Start";
+    IDS_STOP                            "Stop";
+    IDS_UPRES                           "Up-Res";
+    IDS_REFRESH                         "Refresh Preview";
+    IDS_AUTO_REFRESH                    "Auto Refresh Preview";
+    IDS_FRAME                           "Frame:";
+    IDS_ELAPSED                         "Elapsed:";
+    IDS_ESTIMATED                       "Estimated total:";
+    IDS_SIMULATION_OCCUPIED             "Another simulation is already running. Stop it or wait until it finishes before starting another one.";
+    IDS_ABORT_SIMULATION_SHORT          "Abort Simulation?";
+    IDS_ABORT_SIMULATION_LONG           "Do you want to abort the simulation?";
+    IDS_FINISHED                        "Finished";
+    IDS_ABORTED                         "Stopped";
+    IDS_BETA_LIMITATION                 "TurbulenceFD Learning Edition";
+    IDS_SIM_MEMORY                      "Workspace:";
+    IDS_CACHE_MEMORY                    "Cache Memory:";
+    IDS_DISK_MEMORY                     "Disk Cache:";
+    IDS_LICENSED_TO                     "Licensed to:";
+    IDS_DEMO_VERSION                    "Learning Edition";
+    IDS_EARLY_BIRD                      " - Early Bird";
+    IDS_RENDER_WHEN_DONE                "Render when finished";
+    IDS_NO_VOLUME_SELECTED_SHORT        "No TurbulenceFD Container selected";
+    IDS_NO_VOLUME_SELECTED_LONG         "Select the TurbulenceFD Container on which to run the simulation";
+    IDS_FAILED_TO_LOAD_SIM_STATE_SHORT  "Failed to load Simulation State";
+    IDS_FAILED_TO_LOAD_SIM_STATE_LONG   "Failed to load Simulation State from";
+    IDS_T4D_PREF_DIALOG                 "TurbulenceFD";
+    IDS_DEFAULT_CACHE_BASE_PATH         "Default Cache Base Path";
+    IDS_TURBULENCE4D                    "TurbulenceFD";
+    IDS_GETFLUIDDATA_NODE               "GetFluidData";
+    IDS_SETFLUIDDATA_NODE               "SetFluidData";
+    IDS_PFLUID_NODE                     "PFluid";
+    IDS_NEW                             "New";
+    IDS_RENAME                          "Rename";
+    IDS_REMOVE                          "Delete";
+    IDS_BROWSE                          "Browse...";
+    IDS_CONFIRM_REMOVE_CACHE_TITLE      "Delete Cache?";
+    IDS_CONFIRM_REMOVE_CACHE_BODY       "Are you sure you want to delete this cache?";
+    IDS_CHECK_FOR_UPDATE                "Check for updates now";
+    IDS_SAVE_PROJECT_ON_SIM             "Autosave Project To Cache";
+    IDS_UPDATE_TIMELINE                 "Update Editor Time-line";
+    IDS_NO_CACHE_FRAME_AVAILABLE        "No simulation cache available";
+    IDS_UPDATE_AVAILABLE                "An update for TurbulenceFD is available!";
+    IDS_NO_UPDATE_AVAILABLE             "No updates available";
+    IDS_USING_LATEST_VERSION            "You are using the latest version of TurbulenceFD";
+    IDS_AUTO_CHECK_UPDATE               "Automatically check for updates";
+    IDS_PURCHASE_BUTTON                 "Purchase License";
+    IDS_SF_OPACITY_DISPLAY              "Fire Opacity Mapping";
+    IDS_SSS_INTENSITY_DISPLAY           "Smoke Intensity Mapping";
+    IDS_SFCS_INTENSITY_DISPLAY          "Fire Color Mapping";
+    IDS_VELNOISE_INTENSITY_DISPLAY      "Turbulence Intensity Mapping";
+    IDS_FUELMASK_DISPLAY                "Fuel Mask Mapping";
+    IDS_PARTICLE_PROPERTY_MAPPING_DISPLAY    "Particle Property Mapping";
+    IDS_DIST_OPAQ_MAPPING_DISPLAY       "Distance/Opacity Mapping";
+    IDS_NETRENDER_NOT_SUPPORTED         "NET Render is not supported in the Learning Edition. Would you like to purchase a full license?";
+    IDS_OUTPUT_SRGB                     "Output sRGB (not using DeGamma)";
+    IDS_SAVE_SIM_STATE_TITLE            "Save Full Simulation State?";
+    IDS_SAVE_SIM_STATE                  "Saving the full state allows to continue the simulation later. The simulation of the current frame will have to be finished.";
+    IDS_FINISHING                       "Finishing";
+    IDS_CONTINUE                        "Continue";
+    IDS_OVERWRITE_CACHE_TITLE           "Overwrite Cache?";
+    IDS_OVERWRITE_CACHE                 "This will overwrite the existing simulation cache. Do you want to continue?";
+
+    IDS_NO_VEL_IN_CACHE_TITLE           "Cache has no velocity";
+    IDS_NO_VEL_IN_CACHE                 "Up-Res cannot be used on this cache because it has no velocity";
+
+    IDS_CANT_START_SIM_WHILE_RENDER_SHORT   "Cannot start simulation";
+    IDS_CANT_START_SIM_WHILE_RENDER_LONG    "A simulation is already running for the current render process.";
+
+    IDS_CACHE_LOCKED_SHORT              "Cache is locked";
+    IDS_CACHE_LOCKED_LONG               "Unlock the cache or choose another cache directory to run the simulation.";
+
+    IDS_LICENSE_SERVER_CONNECTION_FAILED_SHORT  "Failed to connect to Jawset License Server";
+    IDS_LICENSE_SERVER_CONNECTION_FAILED_LONG   "Your license could not be activated. Please check your internet connection and restart CINEMA 4D to try again.";
+
+    IDS_MULTIPLE_SCATTERING             "Multiple Scattering Pass %1/%2";
+
+    IDS_SIM_MEM_MAY_BE_TOO_BIG_SHORT    "CRITICAL: Simulation might exceed available memory";
+    IDS_SIM_MEM_MAY_BE_TOO_BIG_LONG     "Should the fluid use the whole container, it will require more memory than is available.\nSee the manual for details on how to save memory.\nAre you sure you want to continue?";
+    IDS_SIM_MEM_MAY_BE_TOO_BIG_LONG2    "";
+    IDS_SIM_MEM_MAY_BE_TOO_BIG_LONG3    "";
+
+    IDS_RESOLUTION_INFO_FORMAT          "%1x%2x%3 %4MV - CPU %5 GPU %6 UpRes %7 - Cache/F: %8 UpRes %9";
+
+    IDS_SS_OPACITY_DISPLAY              "Smoke Opacity Mapping";
+
+    IDS_LICENSE_SERVER_ACTIVATION_FAILED_SHORT  "Failed to activate TurbulenceFD";
+    IDS_LICENSE_SERVER_ACTIVATION_FAILED_LONG   "Your license could not be activated. Please check your license account at http://jawset.com";
+
+    IDS_ASK_BEFORE_OVERWRITING_CACHE    "Ask before overwriting simulation cache";
+
+    IDS_NO                              "No";
+    IDS_YES                             "Yes";
+    IDS_OK                              "OK";
+    IDS_CANCEL                          "Cancel";
+    IDS_CREATE                          "Create New";
+
+    IDS_USE_CPU                         "Use ";
+    IDS_USE_GPU                         "Use GPU";
+
+    IDS_FPS_MISMATCH_TITLE              "WARNING: Framerate mismatch";
+    IDS_FPS_MISMATCH                    "Render framerate does not match project framerate used for simulation cache";
+
+    IDS_NO_NETRENDER_IN_LE              "WARNING: TurbulenceFD supports NET Render in the licensed version only. This is the Free Learning Edition.";
+
+    IDS_FAILED_TO_REMOVE_CACHE_DIR_TITLE    "ERROR";
+    IDS_FAILED_TO_REMOVE_CACHE_DIR          "Failed to remove cache folder";
+
+    IDS_SCENE_NOT_SUPPORTED_TITLE   "Unsupported TurbulenceFD project";
+    IDS_SCENE_NOT_SUPPORTED         "Loading projects created with the Learning Edition of TurbulenceFD is not supported";
+
+    IDS_UPDATE_CHECK_FAILED         "Update Check Failed";
+    IDS_UPDATE_CHECK_FAILED_LONG    "Failed to connect to update server! Please contact support@jawset.com";
+
+    IDS_MB_LENGTH                   "Motion Blur Length";
+    IDS_MB_SUBSTEPS                 "Motion Blur Sub-Steps";
+
+    IDS_VORTICITY_INTENSITY_DISPLAY "Vorticity Intensity Mapping";
+
+    IDS_INCOMPATIBLE_CUDA_DRIVER_TITLE  "Insufficient CUDA Driver";
+    IDS_INCOMPATIBLE_CUDA_DRIVER        "TurbulenceFD GPU support will not be available. Please update your NVidia graphics driver.";
+    IDS_SIMULATION_EXCEPTION_TITLE      "Error during Simulation";
+    IDS_SIMULATION_EXCEPTION            "The simulation had to abort because of an unexpected error.\nPlease report this to support@jawset.com with the log file %1 attached.\nThank you!";
+    IDS_SIMULATION_EXCEPTION2           "";
+    IDS_SIMULATION_EXCEPTION3           "";
+
+    IDS_SIM_MODE_BACKGROUND             "Cache";
+    IDS_SIM_MODE_INTERACTIVE            "Interactive";
+    IDS_SIM_MODE_UPRES                  "Up-Res";
+
+    IDS_ALT_BASE_PATH                   "Alt. Base Path";
+
+    IDS_GPU_VOLUME_RENDERER             "TurbulenceFD GPU Renderer";
+
+    IDS_ADVECT_METHOD_FINVOL            "FINVOL";
+    IDS_INSUFFICIENT_XPARTICLES_VERSION         "X-Particles versions before v2.1 and Demo versions of X-Particles are not supported.\nThe X-Particles objects with a TurbulenceFD Emitter Tag will not work.";
+    IDS_INSUFFICIENT_XPARTICLES_VERSION_TITLE   "Insufficient X-Particles Version or Demo";
+
+    IDS_SCENE_RESTRICTED_TITLE          "TurbulenceFD elements restricted to Learning Edition";
+    IDS_SCENE_RESTRICTED                "The saved TurbulenceFD elements can only be used with the Learning Edition of the plugin.\nThe rest of the scene is not affected by this restriction.";
+}

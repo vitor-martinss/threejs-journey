@@ -1,0 +1,12 @@
+STRINGTABLE GVgetfluiddata
+{
+	GVgetfluiddata              "GetFluidData";
+    GVGFD_VOLUME_OBJECT			"Fluid Container";
+	GVGFD_POSITION				"Position";
+    GVGFD_VELOCITY				"Velocity";
+    GVGFD_TEMPERATURE			"Temperature";
+    GVGFD_DENSITY				"Density";
+    GVGFD_FUEL					"Fuel";
+    GVGFD_FIRE					"Fire";
+	GVGFD_PARTICLE				"Particle";
+}
